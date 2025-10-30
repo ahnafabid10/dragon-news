@@ -6,7 +6,7 @@ const HomeLayout = () => {
     return (
         <div>
             <header><Header></Header></header>
-            <main>
+            <main> 
                 <section className='left_nev'></section>
                 <section className='main'>
                     <Outlet></Outlet>
