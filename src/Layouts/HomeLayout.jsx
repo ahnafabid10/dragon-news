@@ -10,6 +10,7 @@ const HomeLayout = () => {
     return (
         <div>
             <header><Header></Header>
+            {import.meta.evm.VITE_name}
             <section className='w-11/12 mx-auto my-3 '>
                 <LatestNews></LatestNews>
             </section>
