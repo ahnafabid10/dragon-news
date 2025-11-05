@@ -7,7 +7,7 @@ const QZone = () => {
     return (
         <div className='bg-base-200 p-3'>
             <div className="font-bold mb-5">QZone</div>
-            <div className="">
+            <div className="justify-center text-center items-center">
                 <img src={swimming} alt="" />
                 <img src={classImg} alt="" />
                 <img src={playImg} alt="" />
